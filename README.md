@@ -1,8 +1,9 @@
 # litewebchat
 
 
-一个用go写的网页聊天就一个文件没啥花里胡哨的
-##DEMO
+一个用AI和golang写的网页聊天就一个文件没啥花里胡哨的
+
+#DEMO
 ![聊天界面截图](screenshot.jpg)
 怎么跑
 
@@ -16,6 +17,7 @@ go run main.go
 用了啥
 
 · go 标准库 (net/http)
+
 · gorilla/websocket (就这一个外部依赖)
 
 目录结构
@@ -37,7 +39,9 @@ go run main.go
 有啥功能
 
 · 进入网页后 只需要输入用户名就可以聊天
+
 · 如果想突出的话 可以输入颜色的hex
+
 · 还有一个就是小巧
 
 就这么简单，没啥复杂的。
